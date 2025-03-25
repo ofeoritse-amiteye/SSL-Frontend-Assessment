@@ -25,10 +25,10 @@ export default function Header()
                     <div className="h-12 md:px-10 w-[90%] md:w-[80%] lg:w-[50%] flex items-center space-x-5">
                         <div className="relative w-[80%] md:w-[60%] h-10">
                             <input type="search" className="rounded-full h-full w-full pl-10 border-2 text-gray-400 border-gray-400 focus:outline-none" placeholder="Search"/>
-                            <Image src={"/assets/images/search.svg"} alt="N/A" width={20} height={20} className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5"/>
+                            <Image src={"/assets/images/Search.svg"} alt="N/A" width={20} height={20} className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5"/>
                         </div>
                         <button className="md:flex min-w-[100px] items-center p-2 space-x-3 h-10 w-[20%] border-2 border-gray-400 rounded-full hidden">
-                            <Image src={"/assets/images/filter.svg"} alt="N/A" width={18} height={50}/>
+                            <Image src={"/assets/images/Filter.svg"} alt="N/A" width={18} height={50}/>
                             <p className="text-gray-400 ">Filter</p>
                         </button>
                     </div>

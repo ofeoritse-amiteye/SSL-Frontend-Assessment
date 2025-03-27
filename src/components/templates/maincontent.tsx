@@ -265,7 +265,7 @@ export default function Maincontent()
                             <div className="-mt-24 md:-mt-32 flex px-3 md:px-20 w-full space-x-5 bg">
                                 <div className="h-full w-full">
                                     <Image src={"/assets/images/travel-agent-profile.svg"} alt="N/A" width={200} height={50} className="w-[80%] max-w-[150px] md:w-[80%] lg:w-full md:min-w-[200px]"/>
-                                    <div className="flex justify-end w-[80%] max-w-[150px] md:w-full md:max-w-full lg:w-full lg:max-w-full">
+                                    <div className="flex justify-end w-[80%] max-w-[150px] md:w-[80%] lg:w-full md:min-w-[200px]">
                                     <Image src={"/assets/images/Add.svg"} alt="N/A" width={40} height={30} className=" w-[35%] md:w-[20%] max-w-[30px] -mt-3 "/>
                                     </div>
                                 </div>

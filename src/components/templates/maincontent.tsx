@@ -440,7 +440,7 @@ export default function Maincontent()
                             </div>
                             <div className="w-[40%] text-[9px] md:text-[8px] flex flex-col items-end font-bold">
                                 <p>{profile.matchPercentage} match</p>
-                                <p>{profile.verified ? (<p className="flex"> <Image src={"assets/images/verified.svg"} alt="N/A" width={10} height={20}/> Verified Address</p> ) : "Unverified Address"}</p>
+                                <p>{profile.verified ? (<span className="flex"> <Image src={"assets/images/verified.svg"} alt="N/A" width={10} height={20}/> Verified Address</span> ) : "Unverified Address"}</p>
                             </div>
                             </div>
                             <p className="w-full text-[8px] mt-3">

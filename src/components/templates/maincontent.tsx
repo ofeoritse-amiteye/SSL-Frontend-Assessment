@@ -284,12 +284,12 @@ export default function Maincontent()
                         <div className="lg:w-[43%] h-24">
                             <textarea className="w-full h-full bg-white rounded-xl border border-gray-300 py-5 px-10 resize-none lg:min-w-[500px]" name="" id="" placeholder="A few words about myself"></textarea>
                         </div>
-                        <div className="lg:w-[43%] space-y-5 bg-white rounded-xl border border-gray-300 p-3 mt-5 flex flex-wrap space-x-5 lg:min-w-[500px]">
-                            <Image src={"/assets/images/travel-agent-profile.svg"} alt="N/A" width={75} height={50}/>
-                            <Image src={"/assets/images/image3.svg"} alt="N/A" width={75} height={50}/>
-                            <Image src={"/assets/images/image3.svg"} alt="N/A" width={75} height={50}/>
-                            <Image src={"/assets/images/image3.svg"} alt="N/A" width={75} height={50}/>
-                            <Image src={"/assets/images/image3.svg"} alt="N/A" width={75} height={50}/>
+                        <div className="lg:w-[43%] bg-white rounded-xl border border-gray-300 p-3 mt-5 flex flex-wrap space-x-5 lg:min-w-[500px]">
+                            <Image src={"/assets/images/travel-agent-profile.svg"} alt="N/A" width={75} height={50} className="mb-5"/>
+                            <Image src={"/assets/images/image3.svg"} alt="N/A" width={75} height={50} className="mb-5"/>
+                            <Image src={"/assets/images/image3.svg"} alt="N/A" width={75} height={50} className="mb-5"/>
+                            <Image src={"/assets/images/image3.svg"} alt="N/A" width={75} height={50} className="mb-5"/>
+                            <Image src={"/assets/images/image3.svg"} alt="N/A" width={75} height={50} className="mb-5"/>
                         </div>
                         <div className="w-full mt-5 lg:flex flex-wrap justify-between space-y-5 ">
                             <div className="lg:w-[30%] min-w-[350px] bg-white border border-gray-300 ">
@@ -298,12 +298,12 @@ export default function Maincontent()
                                         <p className="font-bold">My Hobbies</p>
                                         <Image src={"/assets/images/Create.svg"} alt="N/A" width={20} height={20} className="ml-5"/>
                                     </div>
-                                    <div className="w-full flex flex-wrap mt-5 space-x-5 space-y-5">
-                                        <Image src={"/assets/images/image4.svg"} alt="N/A" width={55} height={50}/>
-                                        <Image src={"/assets/images/image5.svg"} alt="N/A" width={55} height={50}/>
-                                        <Image src={"/assets/images/image6.svg"} alt="N/A" width={55} height={50}/>
-                                        <Image src={"/assets/images/image7.svg"} alt="N/A" width={55} height={50}/>
-                                        <Image src={"/assets/images/image8.svg"} alt="N/A" width={55} height={50}/>
+                                    <div className="w-full flex flex-wrap mt-5 space-x-5">
+                                        <Image src={"/assets/images/image4.svg"} alt="N/A" width={55} height={50} className="mb-5"/>
+                                        <Image src={"/assets/images/image5.svg"} alt="N/A" width={55} height={50} className="mb-5"/>
+                                        <Image src={"/assets/images/image6.svg"} alt="N/A" width={55} height={50} className="mb-5"/>
+                                        <Image src={"/assets/images/image7.svg"} alt="N/A" width={55} height={50} className="mb-5"/>
+                                        <Image src={"/assets/images/image8.svg"} alt="N/A" width={55} height={50} className="mb-5"/>
                                     </div>
                                 </div>
                             </div>
@@ -313,14 +313,14 @@ export default function Maincontent()
                                         <p className="font-bold">My Interest</p>
                                         <Image src={"/assets/images/Create.svg"} alt="N/A" width={20} height={20} className="ml-5"/>
                                     </div>
-                                    <div className="w-full flex flex-wrap mt-5 space-x-5 space-y-5 ">
-                                        <Image src={"/assets/images/image9.svg"} alt="N/A" width={55} height={50}/>
-                                        <Image src={"/assets/images/image10.svg"} alt="N/A" width={55} height={50}/>
-                                        <Image src={"/assets/images/image11.svg"} alt="N/A" width={55} height={50}/>
-                                        <Image src={"/assets/images/image12.svg"} alt="N/A" width={55} height={50}/>
-                                        <Image src={"/assets/images/image13.svg"} alt="N/A" width={55} height={50}/>
-                                        <Image src={"/assets/images/image14.svg"} alt="N/A" width={55} height={50}/>
-                                        <Image src={"/assets/images/image15.svg"} alt="N/A" width={55} height={50}/>
+                                    <div className="w-full flex flex-wrap mt-5 space-x-5 ">
+                                        <Image src={"/assets/images/image9.svg"} alt="N/A" width={55} height={50} className="mb-5"/>
+                                        <Image src={"/assets/images/image10.svg"} alt="N/A" width={55} height={50} className="mb-5"/>
+                                        <Image src={"/assets/images/image11.svg"} alt="N/A" width={55} height={50} className="mb-5"/>
+                                        <Image src={"/assets/images/image12.svg"} alt="N/A" width={55} height={50} className="mb-5"/>
+                                        <Image src={"/assets/images/image13.svg"} alt="N/A" width={55} height={50} className="mb-5"/>
+                                        <Image src={"/assets/images/image14.svg"} alt="N/A" width={55} height={50} className="mb-5"/>
+                                        <Image src={"/assets/images/image15.svg"} alt="N/A" width={55} height={50} className="mb-5"/>
                                     </div>
                                 </div>
                             </div>

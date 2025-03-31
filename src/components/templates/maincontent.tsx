@@ -65,7 +65,7 @@ export default function Maincontent()
           {
             id: 6,
             coverImage: "/assets/images/photo1.svg",
-            profileImage: "/assets/images/Karen.svg",
+            profileImage: "/assets/images/lovep.svg",
             name: "karen",
             age: 23,
             location: "Abuja",
